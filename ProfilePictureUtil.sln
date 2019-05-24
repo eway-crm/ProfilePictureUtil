@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfilePictureUtil", "ProfilePictureUtil.csproj", "{F558273D-1053-47B8-9D99-0C315DA3C32B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F558273D-1053-47B8-9D99-0C315DA3C32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F558273D-1053-47B8-9D99-0C315DA3C32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F558273D-1053-47B8-9D99-0C315DA3C32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F558273D-1053-47B8-9D99-0C315DA3C32B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46666EF1-A3E8-42E2-8D6E-4F1658845463}
+	EndGlobalSection
+EndGlobal

@@ -16,6 +16,7 @@ namespace ProfilePictureUtil
 
         static void Main(string[] args)
         {
+           Console.WriteLine("Starting");
            if (args.Any())
            {
                 if (args[0].Contains("FixDimensions"))
@@ -24,6 +25,12 @@ namespace ProfilePictureUtil
                     Contact.SaveProfilePictureSize(_ewayConnection);
                 }
            }
+           else
+           {
+                Console.WriteLine("Program parameter is missing.");
+           }
+           Console.WriteLine("The End");
+           Console.ReadLine();
         }
 
         private static void LogIn()

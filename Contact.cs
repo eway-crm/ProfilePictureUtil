@@ -38,12 +38,12 @@ namespace ProfilePictureUtil
             }
             int height = 0;
             int width = 0;
-
             GetPreviewSize(profilePicture, out height, out width);
             if (int.Parse(contact["ProfilePictureWidth"].ToString()) == width && int.Parse(contact["ProfilePictureHeight"].ToString()) == height)
             {
                 return;
             }
+            Console.WriteLine($"Preview of {contact["FileAs"]} was changed from {contact["ProfilePictureHeight"]}x{contact["ProfilePictureWidth"]} to {height}x{width}.");
 
             JObject contactProfile = new JObject();
             contactProfile.Add("ItemGUID", contact["ItemGUID"].ToString());

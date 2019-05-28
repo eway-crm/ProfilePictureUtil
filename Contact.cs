@@ -48,7 +48,7 @@ namespace ProfilePictureUtil
             JObject contactProfile = new JObject();
             contactProfile.Add("ItemGUID", contact["ItemGUID"].ToString());
             contactProfile.Add("ProfilePictureWidth", width);
-            contactProfile.Add("ProfilePictureHeight ", height);
+            contactProfile.Add("ProfilePictureHeight", height);
           
             connection.CallMethod("SaveContact", JObject.FromObject(new
             {

@@ -19,7 +19,7 @@ namespace ProfilePictureUtil
            Console.WriteLine("Starting");
            if (args.Any())
            {
-                if (args[0].Contains("FixDimensions"))
+                if (args[0].Contains("/FixDimensions"))
                 {
                     LogIn();
                     Contact.SaveProfilePictureSize(_ewayConnection);

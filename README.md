@@ -8,7 +8,7 @@ from other system using SQL database where the source database does not provide 
 First of all you have to update connection to the eWay-CRM API in the app.config.
 
 ```xml
-<eWayCRMConnection url="https://trial.eway-crm.com/31994" userName="api" password="470AE7216203E23E1983EF1851E72947==" appIdentifier="QuickBooksConnector1.0" />
+<eWayCRMConnection url="https://free.eway-crm.com/31994" userName="api" password="470AE7216203E23E1983EF1851E72947==" appIdentifier="ProfilePictureUtil-v1.0" />
 ```
 
 After you build the application, run it with following parameter:
